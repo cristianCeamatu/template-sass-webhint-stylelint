@@ -2,6 +2,10 @@
 @import 'mixins';
 @import 'variables';
 
+* {
+  @include box-sizing;
+}
+
 body {
   background-color: $theme-primary;
 }
