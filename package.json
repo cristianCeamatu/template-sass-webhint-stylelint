@@ -8,7 +8,7 @@
     "webhint": "hint .",
     "stylelint:css": "stylelint **/*.css",
     "stylelint:scss": "stylelint styles/scss/*.scss",
-    "watch:scss": "sass --watch styles/scss/app.scss styles/app.css"
+    "watch": "sass --watch styles/scss:styles"
   },
   "repository": {
     "type": "git",

@@ -1,3 +1,9 @@
+/// Partials
+@import 'mixins';
+@import 'variables';
+
+
+
 body {
-  background-color: red;
+  background-color: $theme-primary;
 }
