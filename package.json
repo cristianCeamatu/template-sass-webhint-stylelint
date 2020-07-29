@@ -6,7 +6,9 @@
   "scripts": {
     "test": "npm run webhint && npm run stylelint && echo \"✅✅✅ All tests passed ✅✅✅\"",
     "webhint": "hint .",
-    "stylelint": "stylelint **/*.css"
+    "stylelint:css": "stylelint **/*.css",
+    "stylelint:scss": "stylelint styles/scss/*.scss",
+    "watch": "sass --watch styles/scss:styles"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,7 @@
   "homepage": "https://github.com/cristianCeamatu/linters-testing#readme",
   "devDependencies": {
     "hint": "^6.0.6",
+    "sass": "^1.26.10",
     "stylelint": "^13.3.3",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-csstree-validator": "^1.8.0",
